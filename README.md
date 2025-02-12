@@ -117,7 +117,7 @@ The ToDo List API is a simple task management system that allows users to create
 {
   "id": "12345"
 }
-
+```
 ###Error Handling
 Status Code	Meaning
 200 OK	The request was successful.
