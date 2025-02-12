@@ -118,13 +118,13 @@ The ToDo List API is a simple task management system that allows users to create
   "id": "12345"
 }
 ```
-###Error Handling
+### Error Handling
 Status Code	Meaning
 200 OK	The request was successful.
 204 No Content	The operation was successful but returns no data.
 404 Not Found	The requested resource does not exist.
 500 Internal Server Error	An unexpected error occurred on the server.
-###Usage
+### Usage
 Create a Task: Send a POST request to /create with the task title and due date.
 
 Get Tasks: Send a GET request to /getTasks to retrieve active or completed tasks.
