@@ -118,3 +118,20 @@ The ToDo List API is a simple task management system that allows users to create
   "id": "12345"
 }
 
+###Error Handling
+Status Code	Meaning
+200 OK	The request was successful.
+204 No Content	The operation was successful but returns no data.
+404 Not Found	The requested resource does not exist.
+500 Internal Server Error	An unexpected error occurred on the server.
+###Usage
+Create a Task: Send a POST request to /create with the task title and due date.
+
+Get Tasks: Send a GET request to /getTasks to retrieve active or completed tasks.
+
+Mark Task as Done: Send a PUT request to /taskDone with the task ID.
+
+Update a Task: Send a PUT request to /update with the task ID and new details.
+
+Delete a Task: Send a DELETE request to /delete with the task ID.
+
